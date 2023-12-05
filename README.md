@@ -1,4 +1,4 @@
-# Runtime 2230 Missing Transfer Reprodce
+# Runtime 2230 Missing Transfer Bug Reproduce
 ### runtime 2230 bug
 - run a 2230 mandala node
 ```
