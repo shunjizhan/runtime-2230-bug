@@ -1,6 +1,9 @@
 # Runtime 2230 Missing Transfer Bug Reproduce
+Seems that runtime 2230 is missing `api.tx.balances.transfer` method
+
+
 ### runtime 2230 bug
-- run a 2230 mandala node
+- run a 2230 mandala node (built from [this commit](https://github.com/AcalaNetwork/Acala/pull/2656))
 ```
 docker run -it --rm -p 9944:9944 ghcr.io/acalanetwork/mandala-node:sha-1c37252 --dev --rpc-external --rpc-cors=all --rpc-methods=unsafe -levm=debug --pruning=archive --instant-sealing
 ```
